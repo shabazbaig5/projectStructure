@@ -1,0 +1,303 @@
+p{
+  color : red;
+}
+
+body{
+  color: #232f3e;
+}
+
+
+.box{
+
+  display : grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2px;
+  grid-auto-flow: row;
+  width : auto;
+  max-width: auto;
+  border : 1px solid black;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  padding : 10px;
+
+}
+
+
+.box div{
+
+  height: 10vh;
+  width:30vh;
+  background-color: bisque;
+
+}
+
+
+table{
+  /* color : bisque !important; */
+}
+
+
+
+input{
+  margin : 5px;
+}
+
+
+
+/* efficacy */
+
+.dataTable{
+  /* text-align: center !important; */
+
+  /* display : grid;
+  grid-template: 1fr;
+  align-content: center;
+  align-items: center;
+  justify-content: center */
+}
+
+#example_wrapper{
+
+  text-align:center;
+  width : 70vh !important;
+}
+
+table{
+  width : 70vh !important;
+}
+html, body {
+  height: 100px;
+
+}
+
+
+
+*{
+  
+  font-family: 'Trebuchet MS', 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: small;
+
+}
+.navbar-dark {
+  background-color: #232f3e !important;
+  text-align: center;
+}
+
+img.img-circle {
+  border-radius: 50%;
+  border-right: 5px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  padding-bottom: 3px;
+}
+
+body {
+  min-height: 15rem !important;
+  padding-top: 3rem;
+}
+
+.nav-link{
+  color:#666;
+}
+a.active.nav-link{
+  color:#fff!important;
+  background-color: #17A2B8!important;
+}
+/*-- tt stands for text-theme*/
+.tt-head{
+  color:#73879C;
+  font-style: normal;
+  font-variant: normal;
+}
+.bg-aero{
+  color:#fff;
+  background-color: #17A2B8;
+}
+
+.bg-squid{
+  color:#fff!important;
+  background-color: #17A2B8!important;
+}
+
+.btnModalPopup {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.btnModalPopup:hover {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.sidebar-item {
+  text-decoration: none !important;
+  color: #73879C;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: left;
+}
+
+.sidebar-item:hover {
+  text-decoration: none !important;
+  color: #73879C;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: left;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.fa{
+  color:#17A2B8;
+  text-decoration: none!important; 
+}           
+/*-- card style --*/
+.card{
+  background-color:#fff;
+  border-radius: 15px 15px 15px 15px;
+  border:2px solid #428bca;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 8vw;
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+}
+
+.card-title{
+  text-align:center;
+  color:#696969!important;
+}
+
+/*-- jumbotron style--*/
+.jumbotron{
+  min-height:200px;
+}
+
+.jumbo-style{
+  margin:25px;
+  padding: 2px;
+}
+.tt-green{
+  color:green;
+}
+.center{
+  
+  text-align:center;
+}
+
+div.searchable {
+  /* margin-left: .5rem!important; */
+  /* margin-right: .5rem!important; */
+  padding-right : 3px;
+  width: 20vh;
+  background-color:white;
+  
+}
+
+.searchable input {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  /* margin-left: .5rem!important; */
+  width: 20vh;
+  display: block;
+  padding : 2px;
+  line-height: 1;
+  background-color: #fff;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px;
+}
+
+.searchable ul {
+  display: none;
+  list-style-type: none;
+  background-color: #fff;
+  border-top: none;
+  max-height: 167px;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+
+.dropDown{
+  background-color: #666;
+}
+
+.searchable ul li {
+  padding: 7px 9px;
+  border-bottom: 1px solid #e1e1e1;
+  cursor: pointer;
+  color: #6e6e6e;
+}
+
+.searchable ul li.selected {
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+accordion_container {
+  width: 500px;
+}
+
+.accordion_head {
+  /*background-color: #17A2B8;*/
+  background-color:  #C0C0C0;
+  color: black;
+  cursor: pointer;
+  margin: 0 0 1px 0;
+  padding: 7px 11px;
+  font-weight: bold;
+}
+
+.accordion_body {
+  background: #D0D0D0;
+}
+
+.accordion_body p {
+  padding: 18px 5px;
+  margin: 0px;
+}
+
+.plusminus {
+
+  float: right;
+  font-size: 18px;
+
+}
+
+
+
+
+.scrollable {
+  
+  max-height: 10vh;
+  overflow-y: auto !important;   /*Use !important only if there is already an overflow style rule for this element and you want to override */
+}
+
+
+#names{
+  position: absolute;
+  /* top : 3px; */
+  z-index: 1;
+}
+
+#nameList{
+  position: absolute;
+  
+  left: 20px;
+  width : 15vh;
+  margin-top: 5px;
+  
+}

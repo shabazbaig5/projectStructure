@@ -1,0 +1,25 @@
+
+.dummy{
+  height : 30vh;
+  width : 30vh;
+  background-color: black;
+}
+
+p{
+  color : red;
+}
+
+
+table{
+  color : bisque !important;
+  border : 1px solid bisque;
+  border-collapse: collapse;
+}
+
+table td{
+
+  border : 1px solid bisque;
+  /* margin : 0px; */
+ 
+
+}
